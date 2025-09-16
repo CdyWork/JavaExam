@@ -1,0 +1,226 @@
+\documentclass{article}
+\usepackage[UTF8]{ctex}
+
+\begin{document}
+Hey world!
+
+测试
+
+This is a first document.
+\end{document}
+
+\geometry{a4paper, margin=1in}
+
+\title{Java环境配置与控制台程序设计实验报告}
+\author{\underline{__________}（学号：\underline{__________}）}
+\date{\underline{__________年__________月__________日}}
+
+\begin{document}
+\maketitle
+
+\section{实验基本信息}
+\begin{center}
+\begin{tabular}{|m{3cm}<{\centering}|m{10cm}<{\centering}|}
+\hline
+实验名称 & Java环境配置与控制台程序设计 \\
+\hline
+实验地点 & \underline{__________} \\
+\hline
+实验时长 & \underline{__________小时} \\
+\hline
+参考资料 & 《Java环境安装和配置指南》、网盘提供的jdk1.8.0_212.zip与eclipse.zip \\
+\hline
+\end{tabular}
+\end{center}
+
+\section{实验目的}
+\begin{enumerate}
+    \item 掌握SDK软件包、Eclipse软件、EditPlus编辑软件的安装方法。
+    \item 掌握程序运行环境的设置方法。
+    \item 掌握Java程序的编写与运行方法。
+    \item 理解面向对象的编程思想。
+\end{enumerate}
+
+\section{实验准备}
+\begin{enumerate}
+    \item 软件资源：从指定网盘下载并获取\textbf{jdk1.8.0_212.zip}压缩包与\textbf{eclipse.zip}压缩包。
+    \item 工具准备：计算机需安装解压软件（如WinRAR、7-Zip），用于提取上述压缩包中的文件。
+    \item 文档准备：提前阅读《Java环境安装和配置指南》，明确软件安装与环境配置的关键步骤。
+\end{enumerate}
+
+\section{实验内容与步骤}
+\subsection{一、软件安装与环境配置}
+\subsubsection{1. SDK（JDK）安装与环境变量配置}
+\begin{enumerate}
+    \item 解压JDK压缩包：右键点击\textbf{jdk1.8.0_212.zip}，选择解压路径（建议路径：\underline{__________}，如C:\textbackslash Java\textbackslash jdk1.8.0_212），完成解压。
+    \item 配置系统环境变量：
+          \begin{enumerate}
+              \item 右键点击“此电脑”→“属性”→“高级系统设置”→“环境变量”，进入环境变量配置界面。
+              \item 新建系统变量\textbf{JAVA_HOME}：变量名填写“JAVA_HOME”，变量值填写JDK解压路径（如C:\textbackslash Java\textbackslash jdk1.8.0_212）。
+              \item 编辑系统变量\textbf{Path}：在“Path”变量值中新增“\%JAVA_HOME\%\textbackslash bin”与“\%JAVA_HOME\%\textbackslash jre\textbackslash bin”两个路径。
+              \item 新建系统变量\textbf{CLASSPATH}：变量名填写“CLASSPATH”，变量值填写“.;\%JAVA_HOME\%\textbackslash lib\textbackslash dt.jar;\%JAVA_HOME\%\textbackslash lib\textbackslash tools.jar”（注意开头的“.”不可省略）。
+          \end{enumerate}
+    \item 验证JDK配置：打开命令提示符（CMD），分别输入“java -version”与“javac -version”，若显示JDK版本信息（如java version "1.8.0_212"），则配置成功。
+          \begin{center}
+              \includegraphics[width=0.8\textwidth]{jdk_verify_screenshot} % 此处插入JDK验证截图（需含时间戳）
+              \caption{JDK配置验证结果截图（时间戳：\underline{__________}）}
+          \end{center}
+\end{enumerate}
+
+\subsubsection{2. Eclipse软件安装与启动}
+\begin{enumerate}
+    \item 解压Eclipse压缩包：右键点击\textbf{eclipse.zip}，选择解压路径（建议路径：\underline{__________}，如D:\textbackslash Eclipse），完成解压。
+    \item 启动Eclipse：双击解压路径下的“eclipse.exe”，选择工作空间（可默认或自定义路径：\underline{__________}），等待软件启动完成。
+          \begin{center}
+              \includegraphics[width=0.8\textwidth]{eclipse_start_screenshot} % 此处插入Eclipse启动截图（需含时间戳）
+              \caption{Eclipse启动界面截图（时间戳：\underline{__________}）}
+          \end{center}
+\end{enumerate}
+
+\subsubsection{3. EditPlus编辑软件安装}
+\begin{enumerate}
+    \item 运行EditPlus安装程序：双击下载的EditPlus安装包，按照向导提示选择安装路径（如C:\textbackslash Program Files\textbackslash EditPlus）、创建桌面快捷方式。
+    \item 启动与基础设置：双击桌面“EditPlus”快捷方式，根据需求设置编码格式（建议UTF-8）、字体大小等，完成基础配置。
+          \begin{center}
+              \includegraphics[width=0.8\textwidth]{editplus_setup_screenshot} % 此处插入EditPlus配置截图（需含时间戳）
+              \caption{EditPlus基础配置截图（时间戳：\underline{__________}）}
+          \end{center}
+\end{enumerate}
+
+\subsection{二、简单控制台应用程序开发}
+\subsubsection{1. 使用Eclipse实现（输出“Hello World!”与“We are students.”）}
+\begin{enumerate}
+    \item 创建Java项目：打开Eclipse，点击“File”→“New”→“Java Project”，输入项目名（如myFirstJava），点击“Finish”。
+    \item 创建Java类：右键点击项目“myFirstJava”→“New”→“Class”，输入类名（HelloWorld），勾选“public static void main(String[] args)”，点击“Finish”。
+    \item 编写代码：在HelloWorld.java文件中编写如下代码（需包含包声明）：
+          \begin{verbatim}
+package myFirstJava; // 包声明，与项目结构对应
+
+public class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello World!");
+        System.out.println("We are students.");
+    }
+}
+          \end{verbatim}
+    \item 编译与运行：点击菜单栏“Run”→“Run”（或快捷键Ctrl+F11），查看控制台输出结果，截图保存。
+          \begin{center}
+              \includegraphics[width=0.8\textwidth]{eclipse_run_screenshot} % 此处插入Eclipse运行结果截图（需含时间戳）
+              \caption{Eclipse中程序运行结果截图（时间戳：\underline{__________}）}
+          \end{center}
+\end{enumerate}
+
+\subsubsection{2. 使用命令行方式实现}
+\begin{enumerate}
+    \item 编写Java文件：打开EditPlus，编写与上述步骤3相同的代码，将文件保存至指定目录（需与包声明对应，如C:\textbackslash Java\textbackslash Test\textbackslash myFirstJava，文件名为HelloWorld.java）。
+    \item 编译Java文件：打开CMD，通过“cd”命令切换至包目录的上级路径（如cd C:\textbackslash Java\textbackslash Test），输入“javac myFirstJava/HelloWorld.java”，若编译成功，在myFirstJava目录下生成HelloWorld.class文件，截图保存。
+          \begin{center}
+              \includegraphics[width=0.8\textwidth]{cmd_compile_screenshot} % 此处插入命令行编译截图（需含时间戳）
+              \caption{命令行编译Java文件截图（时间戳：\underline{__________}）}
+          \end{center}
+    \item 运行class文件：在CMD中输入“java myFirstJava.HelloWorld”，查看输出结果，截图保存。
+          \begin{center}
+              \includegraphics[width=0.8\textwidth]{cmd_run_screenshot} % 此处插入命令行运行截图（需含时间戳）
+              \caption{命令行运行程序结果截图（时间戳：\underline{__________}）}
+          \end{center}
+\end{enumerate}
+
+\subsection{三、Eclipse中错误提示实验（思考与记录）}
+\subsubsection{1. 丢失大括号的错误提示}
+\begin{enumerate}
+    \item 操作：在HelloWorld.java中删除main方法体后的“}”（如删除“System.out.println("We are students.");”后的“}”），保存并编译。
+    \item 错误提示记录：\underline{__________}（如“Syntax error, insert "}" to complete Block”）
+    \item 截图保存：
+          \begin{center}
+              \includegraphics[width=0.8\textwidth]{brace_error_screenshot} % 此处插入丢失大括号错误截图（需含时间戳）
+              \caption{丢失大括号的错误提示截图（时间戳：\underline{__________}）}
+          \end{center}
+\end{enumerate}
+
+\subsubsection{2. 语句丢失分号的错误提示}
+\begin{enumerate}
+    \item 操作：在HelloWorld.java中删除某条System.out.println语句后的分号（如删除“System.out.println("Hello World!")”后的“;”），保存并编译。
+    \item 错误提示记录：\underline{__________}（如“Syntax error, insert ";" to complete Statement”）
+    \item 截图保存：
+          \begin{center}
+              \includegraphics[width=0.8\textwidth]{semicolon_error_screenshot} % 此处插入丢失分号错误截图（需含时间戳）
+              \caption{丢失分号的错误提示截图（时间戳：\underline{__________}）}
+          \end{center}
+\end{enumerate}
+
+\subsubsection{3. 将System写成system的错误提示}
+\begin{enumerate}
+    \item 操作：在HelloWorld.java中把“System.out.println”改为“system.out.println”，保存并编译。
+    \item 错误提示记录：\underline{__________}（如“system cannot be resolved to a variable”）
+    \item 截图保存：
+          \begin{center}
+              \includegraphics[width=0.8\textwidth]{system_case_error_screenshot} % 此处插入System大小写错误截图（需含时间戳）
+              \caption{System大小写错误的提示截图（时间戳：\underline{__________}）}
+          \end{center}
+\end{enumerate}
+
+\subsection{四、面向对象与面向过程概念理解}
+\subsubsection{1. 核心概念定义}
+\begin{itemize}
+    \item 面向过程：\underline{__________}（如“以解决问题的步骤为核心，将问题分解为多个步骤，通过函数实现每个步骤，按顺序执行函数完成任务”）
+    \item 面向对象：\underline{__________}（如“以构成问题的事务为核心，将事务抽象为对象，通过对象的属性与方法描述事务，通过对象间的交互完成任务”）
+\end{itemize}
+
+\subsubsection{2. 五子棋游戏设计思路对比}
+\begin{center}
+\begin{tabular}{|m{5cm}<{\centering}|m{7cm}<{\centering}|}
+\hline
+设计思想 & 具体思路 \\
+\hline
+面向过程 & 1. 开始游戏；2. 黑子先走；3. 绘制画面；4. 判断输赢；5. 轮到白子；6. 绘制画面；7. 判断输赢；8. 返回步骤2；9. 输出结果；将每个步骤用独立函数实现，按顺序调用函数。 \\
+\hline
+面向对象 & 1. 抽象对象：玩家对象（黑白双方，负责接收输入）、棋盘对象（负责绘制画面）、规则对象（负责判定输赢与犯规）；2. 交互逻辑：玩家对象告知棋盘对象棋子变化→棋盘对象更新画面→规则对象判定棋局状态，循环直至游戏结束。 \\
+\hline
+\end{tabular}
+\end{center}
+
+\subsubsection{3. 其他案例对比（举例说明）}
+\begin{enumerate}
+    \item 案例描述：\underline{__________}（如“学生成绩管理系统：实现成绩录入、成绩查询、成绩统计功能”）
+    \item 面向过程思路：\underline{__________}（如“1. 编写成绩录入函数；2. 编写成绩查询函数；3. 编写成绩统计函数；4. 按‘录入→查询→统计’的顺序调用函数，完成管理任务”）
+    \item 面向对象思路：\underline{__________}（如“1. 抽象对象：学生对象（属性：学号、姓名、成绩；方法：成绩设置与获取）、成绩管理对象（方法：录入、查询、统计）；2. 交互逻辑：成绩管理对象调用学生对象的方法获取/设置成绩，实现管理功能”）
+\end{enumerate}
+
+\subsubsection{4. 面向对象基本概念、设计特点与优点}
+\begin{itemize}
+    \item 基本概念：\underline{__________}（如“对象、类、属性、方法、封装、继承、多态”）
+    \item 设计特点：\underline{__________}（如“以对象为核心、强调对象交互、封装性、继承性、多态性”）
+    \item 设计优点：\underline{__________}（如“代码复用性高、扩展性强、可读性好、便于维护、适合大型项目开发”）
+\end{itemize}
+
+\subsubsection{5. 选做内容：DCloud与APICloud了解}
+\begin{center}
+\begin{tabular}{|m{5cm}<{\centering}|m{7cm}<{\centering}|}
+\hline
+平台名称 & 核心信息 \\
+\hline
+DCloud（含uni-app） & 官网：https://www.dcloud.net.cn/、https://uniapp.dcloud.net.cn/；特点：\underline{__________}（如“跨端开发框架，支持一次编写多端运行，适配小程序、APP、H5，开发效率高”）；若开发小APP：开发目标\underline{__________}，开发步骤\underline{__________}，成果截图\underline{__________}（需含时间戳）。 \\
+\hline
+APICloud（用友YonBuilder） & 官网：https://developer.yonyou.com/home；特点：\underline{__________}（如“被用友收购，集成至YonBuilder低代码平台，提供数据设计、页面设计、API设计等可视化开发能力，降低开发门槛”）；若开发小APP：开发目标\underline{__________}，开发步骤\underline{__________}，成果截图\underline{__________}（需含时间戳）。 \\
+\hline
+\end{tabular}
+\end{center}
+
+\section{实验问题与解决方法}
+\begin{enumerate}
+    \item 问题1：命令行运行时提示“找不到主类 myFirstJava.HelloWorld”
+          \begin{itemize}
+              \item 问题原因：\underline{__________}（如“运行路径错误，未在包目录的上级路径执行java命令；或包声明与实际目录结构不匹配”）
+              \item 解决方法：\underline{__________}（如“通过cd命令切换至包目录的上级路径；检查包声明与文件保存路径是否一致，确保‘包名.类名’的调用格式正确”）
+          \end{itemize}
+    \item 问题2：\underline{__________}（如“Eclipse中运行程序提示‘Class not found’”）
+          \begin{itemize}
+              \item 问题原因：\underline{__________}（如“项目未正确编译，或类文件被删除”）
+              \item 解决方法：\underline{__________}（如“右键点击项目→‘Clean’，重新编译项目；检查src目录下是否存在对应的.class文件，若不存在则重新编写代码并保存编译”）
+          \end{itemize}
+\end{enumerate}
+
+\section{实验心得}
+\underline{__________}（如“1. 通过本次实验，我掌握了JDK、Eclipse、EditPlus的安装与配置方法，理解了Java环境变量的作用——JAVA_HOME指定JDK路径，Path确保命令行能找到java与javac命令，CLASSPATH指定类文件的查找路径；2. 在控制台程序开发中，体会到Eclipse的可视化开发优势（自动编译、错误提示）与命令行开发的底层逻辑（手动编译、明确路径关系），同时注意到包声明的重要性——包名需与目录结构一致，否则会出现‘找不到主类’的问题；3. 错误提示实验让我熟悉了Java编译器对语法错误的反馈方式，如丢失大括号、分号会提示‘缺失符号’，大小写错误会提示‘无法解析变量’，这有助于后续快速定位代码错误；4. 关于面向对象与面向过程，通过五子棋与成绩管理系统的案例，我理解了两者的核心差异——面向过程关注‘步骤’，面向对象关注‘对象’，面向对象的封装、继承、多态特性更适合复杂项目的开发与维护；5. 实验中遇到的‘找不到主类’问题，让我学会从路径、包声明、编译状态三个维度排查问题，提升了问题解决能力。未来我会进一步学习面向对象的核心特性，尝试使用uni-app开发简单APP，深化Java开发技能。”）
+
+\end{document}
