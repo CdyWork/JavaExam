@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.8.30)  18 SEP 2025 14:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.8.30)  20 SEP 2025 23:52
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -48,11 +48,7 @@ LaTeX Font Info:    Redeclaring font encoding TS1 on input line 47.
 \g__ctex_font_size_int=\count273
  (c:/texlive/2025/texmf-dist/tex/latex/ctex/config/ctexopts.cfg
 File: ctexopts.cfg 2022/07/14 v2.5.10 Option configuration file (CTEX)
-)
-
-Package ctex Warning: UTF8 will be used as the default encoding.
-
-(c:/texlive/2025/texmf-dist/tex/latex/ctex/engine/ctex-engine-pdftex.def
+) (c:/texlive/2025/texmf-dist/tex/latex/ctex/engine/ctex-engine-pdftex.def
 File: ctex-engine-pdftex.def 2022/07/14 v2.5.10 (pdf)LaTeX adapter (CTEX)
  (c:/texlive/2025/texmf-dist/tex/latex/cjk/texinput/CJKutf8.sty
 Package: CJKutf8 2021/10/16 4.8.5
@@ -523,29 +519,29 @@ Package hyperref Info: Link coloring OFF on input line 28.
 <fengmian.png, id=4, 1386.68062pt x 299.61937pt>
 File: fengmian.png Graphic file (type png)
 <use fengmian.png>
-Package pdftex.def Info: fengmian.png  used on input line 38.
+Package pdftex.def Info: fengmian.png  used on input line 37.
 (pdftex.def)             Requested size: 526.73253pt x 113.81102pt.
-LaTeX Font Info:    Trying to load font information for C70+zhhei on input line 42.
+LaTeX Font Info:    Trying to load font information for C70+zhhei on input line 41.
  (c:/texlive/2025/texmf-dist/tex/latex/zhmetrics/c70zhhei.fd
 File: c70zhhei.fd 2009/09/23 4.8.2
 )
-LaTeX Font Info:    Trying to load font information for C70+zhkai on input line 45.
+LaTeX Font Info:    Trying to load font information for C70+zhkai on input line 44.
  (c:/texlive/2025/texmf-dist/tex/latex/zhmetrics/c70zhkai.fd
 File: c70zhkai.fd 2009/09/23 4.8.2
 )
 <shiyanbaogao.png, id=17, 606.76688pt x 131.74219pt>
 File: shiyanbaogao.png Graphic file (type png)
 <use shiyanbaogao.png>
-Package pdftex.def Info: shiyanbaogao.png  used on input line 50.
+Package pdftex.def Info: shiyanbaogao.png  used on input line 49.
 (pdftex.def)             Requested size: 262.08975pt x 56.9055pt.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.05249> on input line 55.
+(Font)              <14.05249> on input line 54.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.53937> on input line 55.
+(Font)              <10.53937> on input line 54.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7.52812> on input line 55.
-Package CJKpunct Info: use punctuation spaces for family 'zhhei' with punctstyle (quanjiao) on input line 56.
-LaTeX Font Info:    Trying to load font information for C70+zhfs on input line 56.
+(Font)              <7.52812> on input line 54.
+Package CJKpunct Info: use punctuation spaces for family 'zhhei' with punctstyle (quanjiao) on input line 55.
+LaTeX Font Info:    Trying to load font information for C70+zhfs on input line 55.
  (c:/texlive/2025/texmf-dist/tex/latex/zhmetrics/c70zhfs.fd
 File: c70zhfs.fd 2009/09/23 4.8.2
 )
@@ -555,49 +551,146 @@ File: ctex-zhmap-windows.tex 2022/07/14 v2.5.10 Windows font map loader for pdfT
 {c:/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{UGBK.sfd}{Unicode.sfd}) [1
 
  <./fengmian.png> <./shiyanbaogao.png>]
-LaTeX Font Info:    Trying to load font information for C70+rm on input line 69.
+LaTeX Font Info:    Trying to load font information for C70+rm on input line 68.
  (c:/texlive/2025/texmf-dist/tex/latex/ctex/fd/c70rm.fd
 File: c70rm.fd 2022/07/14 v2.5.10 Chinese font definition (CTEX)
 )
-Package CJKpunct Info: use punctuation spaces for family 'rm' with punctstyle (quanjiao) on input line 69.
+Package CJKpunct Info: use punctuation spaces for family 'rm' with punctstyle (quanjiao) on input line 68.
 LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 93.
-<eclipse_result.png, id=102, 730.98094pt x 154.32657pt>
-File: eclipse_result.png Graphic file (type png)
-<use eclipse_result.png>
-Package pdftex.def Info: eclipse_result.png  used on input line 107.
-(pdftex.def)             Requested size: 341.43437pt x 72.08371pt.
+(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 91.
+<run_jieguo.png, id=103, 179.16937pt x 42.1575pt>
+File: run_jieguo.png Graphic file (type png)
+<use run_jieguo.png>
+Package pdftex.def Info: run_jieguo.png  used on input line 111.
+(pdftex.def)             Requested size: 341.43437pt x 80.34256pt.
 
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.110 
-       [1
+l.113     \end{figure}
+                       [1
 pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.110 
-      ]
-<cmd_result.png, id=177, 771.63281pt x 239.39438pt>
-File: cmd_result.png Graphic file (type png)
-<use cmd_result.png>
-Package pdftex.def Info: cmd_result.png  used on input line 113.
-(pdftex.def)             Requested size: 341.43437pt x 105.9256pt.
+l.113     \end{figure}
+                      ]
+<question1.png, id=185, 418.56375pt x 115.18031pt>
+File: question1.png Graphic file (type png)
+<use question1.png>
+Package pdftex.def Info: question1.png  used on input line 120.
+(pdftex.def)             Requested size: 341.43437pt x 93.95459pt.
+<question2.png, id=186, 450.9347pt x 180.675pt>
+File: question2.png Graphic file (type png)
+<use question2.png>
+Package pdftex.def Info: question2.png  used on input line 127.
+(pdftex.def)             Requested size: 341.43437pt x 136.8099pt.
+<question3.png, id=187, 432.86719pt x 231.11343pt>
+File: question3.png Graphic file (type png)
+<use question3.png>
+Package pdftex.def Info: question3.png  used on input line 134.
+(pdftex.def)             Requested size: 341.43437pt x 182.30254pt.
 
 
 [2
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.129 \end{document}
-                    
+l.137         \item Â
+                     Ö∂‰ªñÈóÆÈ¢ò
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.129 \end{document}
-                     <./eclipse_result.png> <./cmd_result.png>] (./One.aux)
+l.137         \item Â
+                     Ö∂‰ªñÈóÆÈ¢ò
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.137         \item Â
+                     Ö∂‰ªñÈóÆÈ¢ò <./run_jieguo.png> <./question1.png> <./question2.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 143--146
+
+ []
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 150.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 150.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 150.
+
+Overfull \hbox (35.99995pt too wide) in paragraph at lines 150--171
+ [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 146--171
+
+ []
+
+
+
+[3
+pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.172             \item Ê
+                         êì‰∏Ä‰∏™app\\ <./question3.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 172--174
+
+ []
+
+<thread.png, id=261, 1340.75906pt x 357.58594pt>
+File: thread.png Graphic file (type png)
+<use thread.png>
+Package pdftex.def Info: thread.png  used on input line 187.
+(pdftex.def)             Requested size: 341.43437pt x 91.06042pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 182--189
+
+ []
+
+
+
+[4
+pdfTeX warning (ext4): destination with the same identifier (name{table.1}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.190 ‰πã
+         ÂêéËøòËøõË°å‰∫ÜÂèçÁºñËØëÔºåvscodeÁöÑÁõ∏ÂÖ≥ÁöÑÊèí‰ª∂Êèê‰æõÂèçÁºñËØëÁ...]
+<fanbianyi1.png, id=280, 621.07031pt x 210.03468pt>
+File: fanbianyi1.png Graphic file (type png)
+<use fanbianyi1.png>
+Package pdftex.def Info: fanbianyi1.png  used on input line 193.
+(pdftex.def)             Requested size: 341.43437pt x 115.46494pt.
+
+Overfull \hbox (9.38014pt too wide) in paragraph at lines 190--195
+[]\C70/rm/m/n/12/4e K \C70/rm/m/n/12/54 ^^N \C70/rm/m/n/12/8f ÿ € \C70/rm/m/n/12/88 L \C70/rm/m/n/12/4e Ü \C70/rm/m/n/12/53 Õ \C70/rm/m/n/12/7f ^^V \C70/rm/m/n/12/8b —|\C70/rm/m/n/12/ff ^^L| \OT1/cmr/m/n/12 vscode\C70/rm/m/n/12/76 Ñ ¯ \C70/rm/m/n/12/51 s \C70/rm/m/n/12/76 Ñ \C70/rm/m/n/12/63 “ \C70/rm/m/n/12/4e ˆ \C70/rm/m/n/12/63 – \C70/rm/m/n/12/4f õ \C70/rm/m/n/12/53 Õ \C70/rm/m/n/12/7f ^^V \C70/rm/m/n/12/8b — \C70/rm/m/n/12/76 Ñ \C70/rm/m/n/12/52 ü \C70/rm/m/n/12/80 ˝|\C70/rm/m/n/12/ff ^^L| \C70/rm/m/n/12/53 Ô \C70/rm/m/n/12/4e Â \C70/rm/m/n/12/77  \C70/rm/m/n/12/52 0\OT1/cmr/m/n/12 java\C70/rm/m/n/12/76 Ñ
+ []
+
+File: fanbianyi1.png Graphic file (type png)
+<use fanbianyi1.png>
+Package pdftex.def Info: fanbianyi1.png  used on input line 200.
+(pdftex.def)             Requested size: 341.43437pt x 115.46494pt.
+
+
+[5
+pdfTeX warning (ext4): destination with the same identifier (name{figure.6}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.203 \end{document}
+                    
+pdfTeX warning (ext4): destination with the same identifier (name{figure.7}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.203 \end{document}
+                    
+pdfTeX warning (ext4): destination with the same identifier (name{figure.8}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.203 \end{document}
+                     <./thread.png> <./fanbianyi1.png>] (./One.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2022/07/14>
@@ -606,18 +699,18 @@ Package rerunfilecheck Info: File `One.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 15573 strings out of 473190
- 255881 string characters out of 5719979
- 872794 words of memory out of 5000000
- 38344 multiletter control sequences out of 15000+600000
- 598918 words of font info for 180 fonts, out of 8000000 for 9000
+ 15939 strings out of 473190
+ 262004 string characters out of 5719979
+ 901774 words of memory out of 5000000
+ 38649 multiletter control sequences out of 15000+600000
+ 606762 words of font info for 208 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 80i,10n,83p,754b,1342s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simfang.ttf><c:/Windows/Fonts/simfang.ttf><c:/Windows/Fonts/simfang.ttf><c:/Windows/Fonts/simfang.ttf><c:/Windows/Fonts/simfang.ttf><c:/Windows/Fonts/simfang.ttf><c:/Windows/Fonts/simfang.ttf><c:/Windows/Fonts/simfang.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simfang.ttf><c:/Windows/Fonts/simfang.ttf><c:/Windows/Fonts/simfang.ttf><c:/Windows/Fonts/simfang.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on One.pdf (3 pages, 902801 bytes).
+ 80i,11n,83p,754b,1342s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simfang.ttf><c:/Windows/Fonts/simfang.ttf><c:/Windows/Fonts/simfang.ttf><c:/Windows/Fonts/simfang.ttf><c:/Windows/Fonts/simfang.ttf><c:/Windows/Fonts/simfang.ttf><c:/Windows/Fonts/simfang.ttf><c:/Windows/Fonts/simfang.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simfang.ttf><c:/Windows/Fonts/simfang.ttf><c:/Windows/Fonts/simfang.ttf><c:/Windows/Fonts/simfang.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on One.pdf (6 pages, 835816 bytes).
 PDF statistics:
- 582 PDF objects out of 1000 (max. 8388607)
- 391 compressed objects within 4 object streams
- 34 named destinations out of 1000 (max. 500000)
- 249 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 704 PDF objects out of 1000 (max. 8388607)
+ 471 compressed objects within 5 object streams
+ 52 named destinations out of 1000 (max. 500000)
+ 325 words of extra memory for PDF output out of 10000 (max. 10000000)
 
