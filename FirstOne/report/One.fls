@@ -420,6 +420,7 @@ INPUT ./fanbianyi1.png
 INPUT ./fanbianyi1.png
 INPUT ./fanbianyi1.png
 INPUT c:/texlive/2025/texmf-dist/fonts/tfm/zhmetrics/unisong/unisong82.tfm
+INPUT c:/texlive/2025/texmf-dist/fonts/tfm/zhmetrics/unisong/unisong9b.tfm
 INPUT ./fanbianyi1.png
 INPUT ./fanbianyi1.png
 INPUT ./fanbianyi1.png
@@ -427,6 +428,7 @@ INPUT ./fanbianyi1.png
 INPUT One.aux
 INPUT ./One.out
 INPUT ./One.out
+INPUT c:/Windows/Fonts/simsun.ttc
 INPUT c:/Windows/Fonts/simsun.ttc
 INPUT c:/Windows/Fonts/simsun.ttc
 INPUT c:/Windows/Fonts/simsun.ttc
