@@ -1,4 +1,4 @@
-//抽血类
+// 抽象类 Shape
 abstract class Shape {
     protected String name;
     
@@ -19,7 +19,7 @@ abstract class Shape {
     }
 }
 
-// 三角形
+// 三角形类
 class Triangle extends Shape { 
     private double side1;
     private double side2;
@@ -65,14 +65,14 @@ class Triangle extends Shape {
 }
 
 // 梯形类
-class Lader extends Shape {
+class Ladder extends Shape {
     private double upperBase;
     private double lowerBase;
     private double leftBase;
     private double rightBase;
     private double height;
 
-    public Lader(double upper, double lower,double left, double right, double h) {
+    public Ladder(double upper, double lower, double left, double right, double h) {
         super("梯形");
         this.upperBase = upper;
         this.lowerBase = lower;
@@ -116,8 +116,8 @@ public class FiveA {
     public static void main(String[] args) {
         // 使用多态处理不同图形（创建对象时类名同步修改）
         Shape[] shapes = {
-            new Triangle(3, 4, 5),  // 此处将Trangle改为Triangle
-            new Lader(3, 5, 5,5,4),
+            new Triangle(3, 4, 5), 
+            new Ladder(3, 5, 5, 5, 4),
             new Circle(5)
         };
 
