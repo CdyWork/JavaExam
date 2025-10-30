@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>WanNianLi</id>
+    <version>1.0.0</version>
+    <authors>WanNianLi</authors>
+    <description>Package Description</description>
+    <repository type="git" commit="5a3712c90b9e4bb92ad06675f4e0208881614908" />
+    <dependencies>
+      <group targetFramework="net6.0-windows7.0" />
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework="net6.0-windows7.0">
+        <frameworkReference name="Microsoft.WindowsDesktop.App.WindowsForms" />
+      </group>
+    </frameworkReferences>
+  </metadata>
+  <files>
+    <file src="F:\JavaExam\JavaExam\FourJavaExam\wannianli\WanNianLi\bin\Release\net6.0-windows\WanNianLi.runtimeconfig.json" target="lib\net6.0-windows7.0\WanNianLi.runtimeconfig.json" />
+    <file src="F:\JavaExam\JavaExam\FourJavaExam\wannianli\WanNianLi\bin\Release\net6.0-windows\WanNianLi.dll" target="lib\net6.0-windows7.0\WanNianLi.dll" />
+  </files>
+</package>

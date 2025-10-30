@@ -1,0 +1,23 @@
+{
+  "version": 2,
+  "dgSpecHash": "E1q5efT7ErM=",
+  "success": true,
+  "projectFilePath": "F:\\JavaExam\\JavaExam\\FourJavaExam\\wannianli\\WanNianLi\\WanNianLi.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ti_st\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.36\\microsoft.windowsdesktop.app.ref.6.0.36.nupkg.sha512",
+    "C:\\Users\\ti_st\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.36\\microsoft.netcore.app.ref.6.0.36.nupkg.sha512",
+    "C:\\Users\\ti_st\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.36\\microsoft.aspnetcore.app.ref.6.0.36.nupkg.sha512",
+    "C:\\Users\\ti_st\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.36\\microsoft.netcore.app.host.win-x64.6.0.36.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1900",
+      "level": "Warning",
+      "message": "获取包漏洞数据时出错: 无法加载源 https://api.nuget.org/v3/index.json 的服务索引。",
+      "projectPath": "F:\\JavaExam\\JavaExam\\FourJavaExam\\wannianli\\WanNianLi\\WanNianLi.csproj",
+      "warningLevel": 1,
+      "filePath": "F:\\JavaExam\\JavaExam\\FourJavaExam\\wannianli\\WanNianLi\\WanNianLi.csproj",
+      "targetGraphs": []
+    }
+  ]
+}

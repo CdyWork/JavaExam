@@ -148,8 +148,10 @@ public class NineA {
 
         // 添加输入框来添加新的日程
         JTextField scheduleField = new JTextField();
+        scheduleField.setSize(20, 30);
         JButton addScheduleButton = new JButton("添加");
         JPanel inputPanel = new JPanel();
+        inputPanel.setSize(20, 30);
         inputPanel.add(scheduleField);
         inputPanel.add(addScheduleButton);
         dialog.add(inputPanel, BorderLayout.SOUTH);

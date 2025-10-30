@@ -1,0 +1,24 @@
+digraph {
+	node [color=lightgrey fontname=Arial shape=rectangle style="rounded,filled"]
+	N1 [label=Start shape=oval]
+	N2 [label="Method: main()" shape=rectangle]
+	N1 -> N2
+	N3 [label="Method: generateRandom()" shape=rectangle]
+	N2 -> N3
+	N4 [label="for loop" shape=rectangle]
+	N3 -> N4
+	N5 [label="Method: print()" shape=rectangle]
+	N4 -> N5
+	N6 [label="Method: analyze()" shape=rectangle]
+	N5 -> N6
+	N7 [label="for loop" shape=rectangle]
+	N6 -> N7
+	N8 [label="if (BinaryOperation(operandl=MemberReference(member=data, postfix_operators=[], prefix_operators=[], qualifier=, selectors=[ArraySelector(index=MemberReference(member=i, postfix_operators=[], prefix_operators=[], qualifier=, selectors=[]))]), operandr=MemberReference(member=max, postfix_operators=[], prefix_operators=[], qualifier=, selectors=[]), operator=>))" shape=diamond]
+	N7 -> N8
+	N9 [label="if (BinaryOperation(operandl=MemberReference(member=data, postfix_operators=[], prefix_operators=[], qualifier=, selectors=[ArraySelector(index=MemberReference(member=i, postfix_operators=[], prefix_operators=[], qualifier=, selectors=[]))]), operandr=MemberReference(member=min, postfix_operators=[], prefix_operators=[], qualifier=, selectors=[]), operator=<))" shape=diamond]
+	N8 -> N9
+	N10 [label="Method: sort()" shape=rectangle]
+	N9 -> N10
+	N11 [label=End shape=oval]
+	N10 -> N11
+}
